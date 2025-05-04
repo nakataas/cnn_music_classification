@@ -1,6 +1,6 @@
 # CNN Music Genre Classification (GTZAN Dataset)
 
-This project implements a Convolutional Neural Network (CNN) using Keras/TensorFlow to classify music genres based on audio features extracted from the GTZAN dataset. The core approach involves converting audio signals into Mel Spectrograms and feeding these visual representations into a CNN model for classification.
+This project implements a Convolutional Neural Network (CNN) using Keras/TensorFlow to classify music genres based on audio features. It utilizes the GTZAN dataset and processes audio files into Mel Spectrograms for input into the CNN model. **This project was developed as an assignment for the MA4072 Deep Learning course.**
 
 ## Dataset
 
@@ -46,3 +46,7 @@ The project follows these main steps, as implemented in the script:
 * Kagglehub
 * gdown (optional, for downloading pre-trained model example in comments)
 * IPython (for audio display in notebooks)
+
+You can typically install these using pip:
+```bash
+pip install tensorflow librosa numpy matplotlib scikit-learn kagglehub gdown ipython
